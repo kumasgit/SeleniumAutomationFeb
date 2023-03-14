@@ -36,11 +36,5 @@ public class ReadConfig {
 		return prop.getProperty("userName");
 
 	}
-	
-	public String getPassword() {
-
-		return prop.getProperty("password");
-
-	}
 
 }

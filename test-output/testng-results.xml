@@ -2,16 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-09T16:14:58 IST" name="Suite" finished-at="2023-03-09T16:15:52 IST" duration-ms="54219">
+  <suite started-at="2023-02-23T16:14:04 IST" name="Default suite" finished-at="2023-02-23T16:15:01 IST" duration-ms="56744">
     <groups>
     </groups>
-    <test started-at="2023-03-09T16:14:58 IST" name="Test" finished-at="2023-03-09T16:15:52 IST" duration-ms="54219">
-      <class name="excelFileExample.RegisterStudentExcelTest">
-        <test-method signature="RegistrationDataDrivernTest()[pri:0, instance:excelFileExample.RegisterStudentExcelTest@40cb8df7]" started-at="2023-03-09T16:14:58 IST" name="RegistrationDataDrivernTest" finished-at="2023-03-09T16:15:52 IST" duration-ms="54064" status="PASS">
+    <test started-at="2023-02-23T16:14:04 IST" name="Default test" finished-at="2023-02-23T16:15:01 IST" duration-ms="56744">
+      <class name="crossBrowserTest.NOPCommLoginTestNG">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:crossBrowserTest.NOPCommLoginTestNG@503d687a]" started-at="2023-02-23T16:14:04 IST" name="launchApp" finished-at="2023-02-23T16:14:09 IST" duration-ms="4702" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- RegistrationDataDrivernTest -->
-      </class> <!-- excelFileExample.RegisterStudentExcelTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- launchApp -->
+        <test-method signature="verifyLogin()[pri:0, instance:crossBrowserTest.NOPCommLoginTestNG@503d687a]" started-at="2023-02-23T16:14:09 IST" name="verifyLogin" finished-at="2023-02-23T16:14:56 IST" duration-ms="46667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:crossBrowserTest.NOPCommLoginTestNG@503d687a]" started-at="2023-02-23T16:14:56 IST" name="closeApp" finished-at="2023-02-23T16:15:01 IST" duration-ms="5295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- crossBrowserTest.NOPCommLoginTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

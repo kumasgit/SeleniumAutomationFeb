@@ -27,7 +27,7 @@ public class HandleAlertExample2  {
 
 		driver.get("http://www.uitestpractice.com/Students/Switchto");
 
-		//driver.manage().window().maximize();
+		driver.manage().window().maximize();
 
 		Thread.sleep(5000);
 
